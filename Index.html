@@ -2,25 +2,168 @@
 <html>
     <head>
         <title>Weekly Art Challenges</title>
+        <meta charset="UTF-8">
+        
+        
     </head>
-    <body>
+    <body onload="Show('0')">
         <head>
             <link rel="stylesheet" type="text/css" href="CSS/CSS.css">
             <h1>Die Ergebnisse unserer wöchentlichen Zeichnen Challenges</h1>
-            
-            <!--Challenge Auswahl-->
-            <div class="custom-select" style="width: 200px">
-                <label for="Challenge Woche">Challenge Woche</label>
-
-                <select id="Challenge Woche">
-                    <option value="Firefly">1. Hasserfülter Angriff auf Glüwürmchen</option>
-                    <option value="Spell">2. Zauberspruch fehlschlag</option>
-                    <option value="Hell">3. König der Hölle</option>
-                    <option value="Snowfall">4. Einsamer Schneefall</option>
-                    <option value="Blacksmith">5. Magischer Schmied</option>
-                    <option value="Magic Hunt">6. Magisch erleuchtete Jagdhütte</option>
-                </select>
+            <hr>
+            <div class="Grid">
+                
+                <div class="custom-select">
+                    <h2>Alle Themen</h2>
+                    <button onclick="Show('0')" class="ThemeSelect">Hasserfüllter Angriff auf Glühwürmchen</button>
+                    <button onclick="Show('1')" class="ThemeSelect">Zauberspruch Fehlschlag</button>
+                    <button onclick="Show('2')" class="ThemeSelect">König der Hölle</button>
+                    <button onclick="Show('3')" class="ThemeSelect">Einsamer Schneefall</button>
+                    <button onclick="Show('4')" class="ThemeSelect">Magischer Schmied</button>
+                    <button onclick="Show('5')" class="ThemeSelect">Magisch erleuchtete Jagdhütte</button>
+                </div>
+                
+                <div class="Main-View" id="0">
+                    <h2>Hasserfüllter Angriff auf Glühwürmchen</h2>
+                    <p>Ein Character mit hasserfüllten augen welcher einen großen kriegshammer trägt in einer Nacht die mit leichtenen Sternen und einem Scheinendem mond erfüllt ist" Optional als Zusatz. "Glühwürmchen als gegner"</p>
+                    
+                    <h3>Kevin</h3>
+                    <img src="Images/Firefly/Kevin.png"class="Wide">
+                    
+                    <h3>Nick</h3>
+                    <img src="Images/Firefly/Nick.jpeg"class="Wide">
+                    
+                    <h3>Artur</h3>
+                    <img src="Images/Firefly/Artur.png"class="Wide">
+                    
+                    <h3>Alex</h3>
+                    <img src="Images/Firefly/Alex.jpeg" class="High">
+                    
+                    <h3>Sarah</h3>
+                    <img src="Images/Firefly/Sarah.jpeg" class="Wide">
+                    
+                    <h3>Sonka</h3>
+                    <img src="Images/Firefly/Sonka.jpeg"class="Wide">
+                    
+                    <h3>Jonas</h3>
+                    <img src="Images/Firefly/Jonas.jpeg"class="Wide">
+                </div>
+                
+                <div class="Main-View" id="1">
+                    <h2>Zauberspruch Fehlschlag</h2>
+                    <p>Ein junger Zauberer oder Magier welcher lernt wie man Magie benutzt, Sein erster Zauber ist jedoch ein Fehlschlag</p>
+                    
+                    <h3>Kevin</h3>
+                    <img src="Images/Spell_Fail/Kevin.png"class="Wide">
+                    
+                    <h3>Nick</h3>
+                    <img src="Images/Spell_Fail/Nick.jpeg"class="Wide">
+                    
+                    <h3>Artur</h3>
+                    <img src="Images/Spell_Fail/Artur.jpeg"class="Wide">
+                    
+                    <h3>Alex</h3>
+                    <img src="Images/Spell_Fail/Alex.jpeg" class="High">
+                    
+                    <h3>Sarah</h3>
+                    <img src="Images/Spell_Fail/Sarah.jpeg"class="Wide">
+                    
+                    <h3>Sonka</h3>
+                    <img src="Images/Spell_Fail/Sonka.jpeg"class="High">
+                    
+                    <h3>Jonas</h3>
+                    <img src="Images/Spell_Fail/Jonas.jpeg"class="High">
+                </div>
+                
+                <div class="Main-View" id="2">
+                    <h2>König der Hölle</h2>
+                    <p>Der König der Höhle in einem Feuersturm</p>
+                    
+                    <h3>Kevin</h3>
+                    <img src="Images/HellKing/Kevin.png"class="Wide">
+                    
+                    <h3>Artur</h3>
+                    <img src="Images/HellKing/Artur.jpeg"class="High">
+                    
+                    <h3>Nick</h3>
+                    <img src="Images/HellKing/Nick.jpeg"class="Wide">
+                    
+                    <h3>Sarah</h3>
+                    <img src="Images/HellKing/Sarah.jpeg"class="High">
+                    
+                    <h3>Sonka</h3>
+                    <img src="Images/HellKing/Sonka.jpeg"class="High">
+                </div>
+                
+                <div class="Main-View" id="3">
+                    <h2>Einsamer Schneefall</h2>
+                    <p>Eine Einsame Figur/Person die in einem Mondbeleuchteten Schneebedeckten ländlichem Feld steht</p>
+                    
+                    <h3>Arne</h3>
+                    <img src="Images/LonelySnowfall/Arne.jpeg"class="Wide">
+                    
+                    <h3>Alex</h3>
+                    <img src="Images/LonelySnowfall/Alex.jpeg" class="High">
+                    
+                    <h3>Kevin</h3>
+                    <img src="Images/LonelySnowfall/Kevin.jpeg"class="Wide">
+                    
+                    <h3>Nick</h3>
+                    <img src="Images/LonelySnowfall/Nick.jpeg"class="Wide">
+                    
+                    <h3>Artur</h3>
+                    <img src="Images/LonelySnowfall/Artur.jpeg"class="Wide">          
+                    
+                    <h3>Sonka</h3>
+                    <img src="Images/LonelySnowfall/Sonka.jpeg"class="Wide">
+                    
+                    <h3>Jonas</h3>
+                    <img src="Images/LonelySnowfall/Jonas.jpeg"class="Wide">
+                </div>
+                
+                <div class="Main-View" id="4">
+                    <h2>Magischer Schmied</h2>
+                    <p>Ein Schmied der ein magisches Objekt oder eine Magische Waffe herstellt</p>
+                    
+                    <h3>Jonas</h3>
+                    <img src="Images/MagicBlacksmith/Jonas.jpeg"class="Wide">
+                    
+                    <h3>Artur</h3>
+                    <img src="Images/MagicBlacksmith/Artur.jpeg"class="Wide">
+                    
+                    <h3>Nick</h3>
+                    <img src="Images/MagicBlacksmith/Nick.jpeg"class="Wide">
+                    
+                    <h3>Kevin</h3>
+                    <img src="Images/MagicBlacksmith/Kevin.png"class="Wide">
+                </div>
+                
+                <div class="Main-View" id="5">
+                    <h2>Magisch erleuchtete Jagdhütte</h2>
+                    <p>Eine Jagdhütte in einer düsteren nacht, erleuchtet mit Magischen lichtern</p>
+                    
+                </div>
             </div>
         </head>
+        
+        <script>
+            var Id_Amounts = 6;
+
+            function Show(Search = 1) {
+                var i;
+                for (i = 0; i < Id_Amounts; i++) {
+                    if(i == Search){
+                        document.getElementById(i).style.display = "grid";
+                    }
+                    else{
+                        document.getElementById(i).style.display = "none";
+                    }
+                }
+            }
+
+        </script>
     </body>
+    
+    
 </html>
+

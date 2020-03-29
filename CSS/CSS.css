@@ -1,58 +1,79 @@
 
 
 
-/* The container must be positioned relative: */
+
+
+body{
+    background:  #151515;
+    color: #E6E6E6;
+    font-family:monospace;
+}
+
+.Grid{
+    display: grid;
+    grid-template-columns: 20%;
+}
+
 .custom-select {
-  position: relative;
-  font-family: Arial;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    border-right-style:solid;
+    
 }
 
-.select-selected {
-  background-color: DodgerBlue;
+
+.ThemeSelect{
+    flex-grow: 1;
+    max-height: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 10px;
 }
 
-/* Style the arrow inside the select element: */
-.select-selected:after {
-  position: absolute;
-  content: "";
-  top: 14px;
-  right: 10px;
-  width: 0;
-  height: 0;
-  border: 6px solid transparent;
-  border-color: #fff transparent transparent transparent;
+.Main-View{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    text-align: center;
 }
 
-/* Point the arrow upwards when the select box is open (active): */
-.select-selected.select-arrow-active:after {
-  border-color: transparent transparent #fff transparent;
-  top: 7px;
+.Wide{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
+}
+.High{
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
 }
 
-/* style the items (options), including the selected item: */
-.select-items div,.select-selected {
-  color: #ffffff;
-  padding: 8px 16px;
-  border: 1px solid transparent;
-  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
-  cursor: pointer;
+h1{
+    font-size: 50px ;
+    text-align: center;
 }
 
-/* Style items (options): */
-.select-items {
-  position: absolute;
-  background-color: DodgerBlue;
-  top: 100%;
-  left: 0;
-  right: 0;
-  z-index: 99;
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
-/* Hide the items when the select box is closed: */
-.select-hide {
-  display: none;
+h3{
+    border-top-style: solid;
+    font-size: 60px;
+    margin: 5px;
 }
 
-.select-items div:hover, .same-as-selected {
-  background-color: rgba(0, 0, 0, 0.1);
+p{
+    margin-top: 0px;
+    font-size: 20px;
 }
