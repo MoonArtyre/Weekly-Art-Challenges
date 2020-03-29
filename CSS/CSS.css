@@ -7,6 +7,7 @@ body{
     background:  #151515;
     color: #E6E6E6;
     font-family:monospace;
+    
 }
 
 .Grid{
@@ -23,7 +24,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     border-right-style:solid;
-    border-color:  aqua;
+    border-color:  #2121ff;
     
 }
 
@@ -63,6 +64,9 @@ body{
 h1{
     font-size: 50px ;
     text-align: center;
+    border-bottom-style: solid;
+    margin-bottom: 5px;
+    border-color: #2121ff;
 }
 
 h2{
@@ -73,7 +77,7 @@ h2{
 
 h3{
     border-top-style: solid;
-    border-color: aqua;
+    border-color: #2121ff;
     font-size: 60px;
     margin: 5px;
 }
@@ -81,8 +85,4 @@ h3{
 p{
     margin-top: 0px;
     font-size: 20px;
-}
-
-hr{
-    color: darkblue;
 }
