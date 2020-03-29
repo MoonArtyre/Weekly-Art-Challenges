@@ -23,6 +23,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     border-right-style:solid;
+    border-color:  aqua;
     
 }
 
@@ -33,6 +34,9 @@ body{
     padding-bottom: 5px;
     padding-top: 5px;
     margin: 10px;
+    background: #121212;
+    border-color: #020202;
+    color: #E6E6E6;
 }
 
 .Main-View{
@@ -69,6 +73,7 @@ h2{
 
 h3{
     border-top-style: solid;
+    border-color: aqua;
     font-size: 60px;
     margin: 5px;
 }
@@ -76,4 +81,8 @@ h3{
 p{
     margin-top: 0px;
     font-size: 20px;
+}
+
+hr{
+    color: aqua;
 }
