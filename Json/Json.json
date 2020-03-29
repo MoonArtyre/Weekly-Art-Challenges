@@ -1,5 +1,0 @@
-$(".link").click(function(){
-                Object.assign(document.querySelector('#my-element').style, {
-                    display:none;
-                })
-            });
