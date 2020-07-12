@@ -7,7 +7,7 @@
         
         
     </head>
-    <body onload="Show('19')">
+    <body onload="Show('21')">
         <header>
             <link rel="stylesheet" type="text/css" href="CSS/CSS.css">
             <h1>Die Ergebnisse unserer wöchentlichen Zeichnen Challenges</h1>
@@ -15,7 +15,9 @@
                 
                 <div class="custom-select">
                     <h2>Alle Themen</h2>
-                    <!--<button onclick="Show('20')" class="ThemeSelect">Time Travel/King Grave</button>-->
+                    <!--<button onclick="Show('22')" class="ThemeSelect">Paladin/Froschteich</button>-->
+                    <button onclick="Show('21')" class="ThemeSelect">Seelenbaum/Schattenmagier</button>
+                    <button onclick="Show('20')" class="ThemeSelect">Zeitreise/Königsgrab</button>
                     <button onclick="Show('19')" class="ThemeSelect">Elektrischer Mensch/Strand</button>
                     <button onclick="Show('18')" class="ThemeSelect">Cyborg/Raumschiff</button>
                     <button onclick="Show('17')" class="ThemeSelect">Engel/Cursed Shop</button>
@@ -453,8 +455,27 @@
                 </div>
                 
                 <div class="Main-View" id="20">
-                    <h2>Time Travel/King Grave</h2>
+                    <h2>Zeitreise/Königsgrab</h2>
                     <p>"ein Zeit reisender Tourist" oder "Das Verzierte grab eines Königs"</p>
+                    
+                    <h3>Kevin</h3>
+                    <img src="Images/TimeTravel/Kevin.jpeg"class="Wide">
+
+                    
+                </div>
+                
+                <div class="Main-View" id="21">
+                    <h2>Seelen Baum/Schatten Magier</h2>
+                    <p>"Ein SchattenZauberer mit Schatten Demonen" oder "Der Baum der Seelen"</p>
+
+                    <h3>Kevin</h3>
+                    <img src="Images/SoulTree/Kevin.png"class="Wide">
+                    
+                </div>
+                
+                <div class="Main-View" id="22">
+                    <h2>Paladin/Froschteich</h2>
+                    <p>"Der Paladin des Lichtes" oder "Ein Froschteich"</p>
 
                     
                 </div>
@@ -462,7 +483,7 @@
         </header>
         
         <script>
-            var Id_Amounts = 21;
+            var Id_Amounts = 23;
 
             function Show(Search = 1) {
                 var i;
