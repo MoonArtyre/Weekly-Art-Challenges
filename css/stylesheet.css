@@ -42,14 +42,6 @@
 }
 .MenuBox
 {
-    background-color: white;
-    position:fixed;
-    width: 110%;
-    height: 200px;
-    top: 0%;
-	text-align: center;
-    z-index:1;
-        border-radius: 10px;
 
 }
 
