@@ -6,7 +6,8 @@
     left:0%;
     top:0%;
     font-family: fantasy;
-    font-size: 120%;
+    font-size: 200%;
+
 	text-align: center;
     overflow: visible;
     z-index:2;
@@ -20,7 +21,8 @@
     left:34%;
     top: 0%;
     font-family: fantasy;
-    font-size: 120%;
+  font-size: 200%;
+
 	text-align: center;
     z-index:2;
 
@@ -33,7 +35,7 @@
     left:68%;
     top: 0%;
     font-family: fantasy;
-    font-size: 120%;
+    font-size: 200%;
 	text-align: center;
     z-index:2;
 
