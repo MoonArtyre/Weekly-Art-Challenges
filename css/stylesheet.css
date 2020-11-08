@@ -168,11 +168,15 @@ a:visited {
 
 }
 .High{
-    height: 700px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 75px;
-    
+    width: 60%;
+    /*height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
+    */
 
 }
 
